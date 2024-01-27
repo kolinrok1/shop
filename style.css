@@ -4,8 +4,8 @@
     text-decoration: none;
 }
 .center{
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
     max-width: 1600px;
 }
 .top{
@@ -36,6 +36,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 65px;
 
 }
 .head-rigth{
@@ -69,4 +70,13 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.menu-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu-bot{
+    display: flex;
+    justify-content: center;
 }
