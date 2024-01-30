@@ -293,4 +293,7 @@ line-height: normal;
         grid-template-rows: repeat(2); 
         gap: 4%;
     }
+    .img-menu-small{
+        width: 100%;
+    }
 }
