@@ -243,6 +243,7 @@ font-weight: 400;
 line-height: normal;
 }
 
+
 @media (min-width:768px) and (max-width:1024px){
     .center{
     max-width: 100vw;
@@ -296,4 +297,12 @@ line-height: normal;
     .img-menu-small{
         width: 100%;
     }
+    .h-top{
+        margin-top: 200px;
+    }
+    .foot{
+        margin-top: 200px;
+        display: flex;
+    }
+    
 }
