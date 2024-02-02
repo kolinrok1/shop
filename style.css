@@ -306,3 +306,83 @@ line-height: normal;
     }
     
 }
+@media (min-width:320px) and (max-width:767px){
+    .center{
+        max-width: 100vw;
+        display: contents;
+        justify-content: center;
+        }
+        .top{
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .top-left{
+            text-align: left;
+            margin-left: 3%;
+            width: 47%;
+            font-size: 19px;
+        }
+        .top-rigth{
+            margin-right: 3%;
+            text-align: end;
+            width: 47%;
+            font-size: 19px;
+        }
+        .head{
+            display: flex;
+            height: 300px;
+        }
+        .head-man{
+            width: 0vw;
+        }
+        .big-text{
+            font-size: 35px;
+        }
+        .end-text{
+            font-size: 20px;
+        }
+        .cen-text{
+            font-size: 20px;
+        }
+        .menu{
+            width: 100vw;
+        }
+        .menu-top{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .wonen{
+            width: 97vw;
+            height: 260px;
+        }
+        .men{
+            width: 97vw;
+        }
+        .kid{
+            width: 97vw;
+            height: 260px;
+        }
+        .menu-bot{
+            width: 97vw;
+            grid-column: span 1;
+            grid-row: span 1;
+            display: grid;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1); 
+            gap: 4%;
+        }
+        .img-menu-small{
+            width: 100%;
+        }
+        .h-top{
+            margin-top: 200px;
+        }
+        .foot{
+            margin-top: 700px;
+            display: flex;
+        }
+}
