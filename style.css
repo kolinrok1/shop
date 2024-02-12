@@ -189,11 +189,31 @@ line-height: normal;
 text-align: center;
 margin-bottom: 57px;
 }
+.korzina{
+    color: #FFF;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border: #FFF 1px solid;
+    padding: 1rem;
+    display: none;
+    opacity: 80%;   
+}
 .one{
     background-color: #F8F8F8;
+    position: relative;
+
 }
 .one:hover .img-menu-small{
     -webkit-filter: brightness(50%);
+    transition: 0.3s all;
+
+}
+.one:hover .korzina{
+    display: block;
+    transition: 2s all;
 }
 .one-text{
     padding: 1em;
@@ -244,7 +264,6 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-transition: 0.3s;
 }
 .foot-l:hover{
     background-color: #F26376;
@@ -256,6 +275,7 @@ transition: 0.3s;
      padding-top: 100px;
      padding-bottom: 100px;
      display: flex;
+     flex-wrap: wrap;
 }
 .conditions-text-top{
     color: rgb(251, 251, 251);
@@ -268,7 +288,7 @@ margin-bottom: 50px;
 }
 .conditions-text{
     color: rgb(251, 251, 251);
-font-family: Lato;
+    font-family: 'Lato', sans-serif;
 font-size: 13.97px;
 font-weight: 300;
 line-height: 17px;
@@ -285,7 +305,7 @@ line-height: 17px;
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 99%;
   display: flex;
   justify-content: space-between;
 }
@@ -432,7 +452,38 @@ width: 46%;
         margin-top: 200px;
         display: flex;
     }
-    
+    .delivery{
+        width: 99%;
+        text-align: center;}
+
+    .conditions{
+        background: rgb(34, 34, 36);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+        .conditions-text-top{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .sub{
+      width: 99%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sub-rigth{
+        text-align: center;
+        width: 99%;}
+        .sub-left{
+            width: 99%;
+            text-align: center;}
+    .footer{
+                background: rgb(34, 34, 36);
+                display: flex;
+            }
 }
 @media (min-width:320px) and (max-width:767px){
     .center{
@@ -512,5 +563,22 @@ width: 46%;
         .foot{
             margin-top: 700px;
             display: flex;
+        }
+        .delivery{
+            width: 99%;
+            text-align: center;}
+    
+        .conditions{
+            background: rgb(34, 34, 36);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+    
+            .conditions-text-top{
+            margin-top: 20px;
+            margin-bottom: 25px;
         }
 }
